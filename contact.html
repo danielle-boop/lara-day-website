@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Lara Day School</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, sans-serif; }
+    body { background: #f5f7fb; color: #333; }
+
+    header {
+      background: linear-gradient(90deg, #3f87a6, #6fb1c7);
+      color: white;
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .page-hero {
+      background: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      color: #3f87a6;
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 50px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+
+    .info, .form-box {
+      background: white;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    .info h3, .form-box h3 {
+      color: #3f87a6;
+      margin-bottom: 15px;
+    }
+
+    .info p {
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+
+    form input, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    form textarea { resize: vertical; min-height: 120px; }
+
+    form button {
+      background: #3f87a6;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1rem;
+      border-radius: 25px;
+      cursor: pointer;
+    }
+
+    form button:hover { background: #336f89; }
+
+    footer {
+      background: #3f87a6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>Lara Day School</h2>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="staff.html">staff</a></li>
+      <li><a href="student.html">student</a></li>
+      <li><a href="gallery.html">student</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <h1>Contact Us</h1>
+  <p>We’d love to hear from you</p>
+</section>
+
+<section class="container">
+  <div class="info">
+    <h3>School Information</h3>
+    <p><strong>Address:</strong> 12 Sunshine Avenue, City</p>
+    <p><strong>Phone:</strong> +234 800 000 0000</p>
+    <p><strong>Email:</strong> info@laradayschool.com</p>
+    <p><strong>Hours:</strong> Mon – Fri, 8:00am – 3:00pm</p>
+  </div>
+
+  <div class="form-box">
+    <h3>Send Us a Message</h3>
+    <form>
+      <input type="text" placeholder="Parent / Guardian Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="text" placeholder="Child’s Class (optional)" />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Lara Day School | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

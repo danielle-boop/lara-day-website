@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Life | Lara Day School</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, sans-serif; }
+    body { background: #fff0f5; color: #333; }
+
+    header {
+      background: linear-gradient(90deg, #f9a825, #ffb74d);
+      color: white;
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .page-hero {
+      background: #fff8e1;
+      padding: 60px 20px;
+      text-align: center;
+      border-bottom: 5px solid #ffb74d;
+    }
+
+    .page-hero h1 {
+      color: #f9a825;
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+    }
+
+    .container p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .activities {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .activity {
+      background: #fff3e0;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .activity:hover { transform: translateY(-5px); }
+
+    .activity img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border-radius: 50%;
+      border: 3px solid #f9a825;
+    }
+
+    .activity h3 { color: #ff8f00; margin-bottom: 10px; }
+    .activity p { font-size: 1rem; }
+
+    footer {
+      background: #f9a825;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>Lara Day School</h2>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="gallery.html">student</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <h1>Student Life</h1>
+  <p>Fun, learning, and growth every day!</p>
+</section>
+
+<section class="container">
+  <p>At Lara Day School, student life is filled with creativity, teamwork, and adventure. Our students enjoy a variety of activities that foster learning, confidence, and friendships.</p>
+
+  <div class="activities">
+    <div class="activity">
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS76C05f8ehQ1UBCSyto4DagBoZ7lmA4xfqaCE_p3TpjoE-1F6Z" alt="Playground">
+      <h3>Playground Fun</h3>
+      <p>Safe and engaging outdoor play to develop physical skills and social interaction.</p>
+    </div>
+    <div class="activity">
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQZn2Rx1LXMXfCY8UJH7uwQh8jFAQ_XsPN0k1vhvUu8yPT5o42L" alt="Arts & Crafts">
+      <h3>Arts & Crafts</h3>
+      <p>Creative projects that encourage imagination, color, and fine motor skills.</p>
+    </div>
+    <div class="activity">
+      <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQqIprYcW3Dsu0Wcxxv0N5kA8n506FPWS4Y3PKishyusMfteVB8" alt="Music & Dance">
+      <h3>Music & Dance</h3>
+      <p>Fun-filled sessions to inspire rhythm, coordination, and self-expression.</p>
+    </div>
+    <div class="activity">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3Vsj_jMJKc_4DEwXl29LtQa7RjlF-xxj9t679I2ECIrAmwIp2" alt="Field Trips">
+      <h3>Field Trips</h3>
+      <p>Exciting educational excursions that bring learning to life outside the classroom.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Lara Day School | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

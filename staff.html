@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teachers & Staff | Lara Day School</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, sans-serif; }
+    body { background: #f5f7fb; color: #333; }
+
+    header {
+      background: linear-gradient(90deg, #3f87a6, #6fb1c7);
+      color: white;
+      padding: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .page-hero {
+      background: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .page-hero h1 {
+      color: #3f87a6;
+      font-size: 2.6rem;
+      margin-bottom: 10px;
+    }
+
+    .staff-container {
+      max-width: 1100px;
+      margin: 50px auto;
+      padding: 0 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+    }
+
+    .staff-card {
+      background: white;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .staff-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .staff-card h3 { color: #3f87a6; margin-bottom: 5px; }
+    .staff-card p { font-size: 1rem; }
+
+    footer {
+      background: #3f87a6;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 60px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <h2>Lara Day School</h2>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="admissions.html">Admissions</a></li>
+      <li><a href="academics.html">Academics</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="staff.html">staff</a></li>
+      <li><a href="student.html">student</a></li>
+      <li><a href="gallery.html">student</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <h1>Our Teachers & Staff</h1>
+  <p>Dedicated to nurturing every child’s growth</p>
+</section>
+
+<section class="staff-container">
+  <div class="staff-card">
+    <img src="https://laradayschool.com/wp-content/uploads/2025/07/Mrs_Okojie-150x150.jpg" alt="2025 New Headteacher">
+    <h3>Mrs.Okojia</h3>
+    <p>Headteacher</p>
+  </div>
+  <div class="staff-card">
+    <img src="data:image/jpeg;base64,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" alt="Teacher / Primary Teacher">
+    <h3>Mrs.Afolabi</h3>
+    <p>Primary Teacher</p>
+  </div>
+  <div class="staff-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCS2wb0ixNEu-qFWrF9k1ml03x2jJ6Fc_eKA&s" alt="Nursery Teacher">
+    <h3>Mrs.Johnsin</h3>
+    <p>Nursery Teacher</p>
+  </div>
+  <div class="staff-card">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCS2wb0ixNEu-qFWrF9k1ml03x2jJ6Fc_eKA&s" alt="Assistant">
+    <h3>Mrs.Balogun</h3>
+    <p>Classroom Assistant</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Lara Day School | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
